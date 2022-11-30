@@ -1,0 +1,25 @@
+{
+  "name": "cli_application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SerhiiIsaev/CLI_application.git"
+  },
+  "keywords": [],
+  "author": "Serhii Isaev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SerhiiIsaev/CLI_application/issues"
+  },
+  "homepage": "https://github.com/SerhiiIsaev/CLI_application#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
