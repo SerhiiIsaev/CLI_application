@@ -21,11 +21,13 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
       break;
 
     case "add":
-      // ... name email phone
+      const newContact = await addContact(name, email, phone)
+      console.log("New contact added!", newContact)
       break;
 
     case "remove":
-      // ... id
+      const removedContact = await removeContact(id)
+      console.log("This contact is removed!", removedContact)
       break;
 
     default:
@@ -34,4 +36,3 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
 }
 
 invokeAction(argv);
-// invokeAction(argv);
